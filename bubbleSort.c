@@ -1,3 +1,5 @@
+// Created by Romario Newell
+// Simple sorting routine  
 #include <stdio.h> 
 #include <stdlib.h> 
 #include "utility.h"
