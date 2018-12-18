@@ -3,6 +3,10 @@
 #include "queue.h"
 #include "utility.h"
 
+//Created by Romario Newell
+//This is the naive version of merge sort with no special optimization 
+//This version uses a queue as temporary storage
+
 void merge(int *seq, int start , int middle, int end)
 {
 	queue buffer1;
