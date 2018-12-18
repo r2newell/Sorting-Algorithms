@@ -1,3 +1,6 @@
+//Created by Romario Newell
+//Simple soritng routine 
+
 #include "utility.h" 
 #include <stdio.h> 
 #include <stdlib.h> 
