@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "utility.h" 
 
+//Created by Romario Newell
+//Simple Sorting routine
 
 
 void insertionSort(int *seq, int size)
