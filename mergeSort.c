@@ -6,6 +6,7 @@
 //Created by Romario Newell
 //This is the naive version of merge sort with no special optimization 
 //This version uses a queue as temporary storage
+//Initial call to mergeSort should be mergeSort(arr, 0, size - 1)
 
 void merge(int *seq, int start , int middle, int end)
 {
@@ -50,7 +51,7 @@ void mergeSort(int *seq, int start, int end)
 {
 	if(start < end)
 	{
-		int middle = (start + end - 1) / 2; 
+		int middle = start + (end - start) / 2; 
 		mergeSort(seq, start, middle); 
 		mergeSort(seq, middle + 1, end); 
 		merge(seq, start, middle, end);
