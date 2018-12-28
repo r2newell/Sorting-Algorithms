@@ -3,19 +3,9 @@
 #include <stdio.h> 
 #include <stdlib.h> 
 
-int main()
-{
-	int seq[100]; 
-	generate(seq, 100); 
-	printf("\nGenerated sequence:");
-	display(seq, 100);
-	quickSort(seq, 0, 99); 
-	printf("\nSorted sequence:"); 
-	display(seq, 100);
-	return 0; 
-}
-
-
+//Created by Romario Newell 
+//Recursive naive version of quickSort
+//Initial call to quickSort should be quickSort(arr, 0, size - 1);
 
 int lomutoPartition(int *seq, int start, int end)
 {
